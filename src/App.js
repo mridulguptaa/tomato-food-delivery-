@@ -1,24 +1,23 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import HomePage from "./components/HomePage/HomePage";
+import CustomerHomePage from "./components/CustomerHomePage/CustomerHomerPage";
 {/*import HelloWorld from "./components/HelloWorld/HelloWorld";*/}
+
 
 function App() {
   return (
     <div className="App">
-        <nav class="navbar navbar-dark bg-dark ">
-          <a class="navbar-brand" href="#">
-            <h2 styles="text-align:right">Tomato</h2>
-          </a>
-      </nav>   
-      <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
-      <div>
-        <button  type="button" class="btn btn-outline-secondary btn-lg" >I am a Customer</button>
+
+      <CustomerHomePage>
+
+      </CustomerHomePage>
+
+      {/* <HomePage>
+
+      </HomePage> */}
         
-        <button  type="button" class="btn btn-outline-secondary btn-lg" >I am a Restaurant</button>
-      
-        
-      </div>
     </div>
   );
 }

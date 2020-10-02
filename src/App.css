@@ -3,8 +3,12 @@
   padding: 0%;
 }
 
-.person-type{
-  margin-right:16px;
+.white-border{
+  border-color: white;
+}
+
+.left-margin{
+  margin-left : auto;
 }
 
 .App-logo {
