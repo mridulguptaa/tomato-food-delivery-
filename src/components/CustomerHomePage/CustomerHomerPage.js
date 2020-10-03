@@ -1,4 +1,5 @@
 import React,{Component,Fragment} from 'react';
+import RestaurantList from '../RestaurantList/RestaurantList';
 import SearchBox from '../SearchBox/SearchBox';
 import Slides from '../Slides/Slides';
 import UserLogin from '../UserLogin/UserLogin';
@@ -29,10 +30,13 @@ const CustomerHomePage = () =>{
                 <Slides>
 
                 </Slides>
+{/* 
+                <RestaurantList name = {"A"} price = {200} distance = {5}></RestaurantList>
+                <RestaurantList name = {"B"} price = {500} distance = {10}></RestaurantList>
+                <RestaurantList></RestaurantList> */}
                 
 
                 
-
       </div>
 	);
 }

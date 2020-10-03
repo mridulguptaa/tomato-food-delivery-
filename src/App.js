@@ -1,4 +1,5 @@
 import React from 'react';
+import {Switch, Route,BrowserRouter} from 'react-router-dom';
 import logo from './logo.svg';
 import './App.css';
 import HomePage from "./components/HomePage/HomePage";
@@ -10,13 +11,19 @@ function App() {
   return (
     <div className="App">
 
-      <CustomerHomePage>
+      
+     
+      <BrowserRouter>
+      
+        <Switch>
+            <Route path = "/customer" component = {CustomerHomePage}></Route>
+            {/* <Route path = "/restaurant" component = {RestaurantHomePage}></Route> */}
+            <Route path = "/" component = {HomePage}></Route>
+        </Switch>
+      </BrowserRouter>
 
-      </CustomerHomePage>
 
-      {/* <HomePage>
-
-      </HomePage> */}
+      
         
     </div>
   );
