@@ -16,9 +16,10 @@ const CustomerHomePage = () =>{
                                 <button type="button" class="btn btn-outline-secondary btn-lg white-border text-white" style = {{marginLeft : "80%"}} data-toggle="modal" data-target="#login">
                                 Login
                                 </button>
-                                <button type="button" class="btn btn-outline-secondary btn-lg white-border text-white"   data-toggle="modal" data-target="#signup">
+                                <button type="button" class="btn btn-outline-secondary btn-lg white-border text-white"   data-toggle="modal" data-target="#signup" >
                                 Sign Up
                                 </button>
+                                
                                
                         </nav>   
                 <UserLogin>
@@ -30,10 +31,41 @@ const CustomerHomePage = () =>{
                 <Slides>
 
                 </Slides>
-{/* 
-                <RestaurantList name = {"A"} price = {200} distance = {5}></RestaurantList>
-                <RestaurantList name = {"B"} price = {500} distance = {10}></RestaurantList>
-                <RestaurantList></RestaurantList> */}
+
+                <div class="row">
+                        <div class="col">
+                        <RestaurantList name = {"A"} price = {200} distance = {5}></RestaurantList>
+                        </div>
+                        <div class="col">
+                        <RestaurantList name = {"B"} price = {500} distance = {10}></RestaurantList>
+                        </div>
+                        <div class="col">
+                        <RestaurantList name = {"C"} price = {500} distance = {10}></RestaurantList>
+                        </div>
+                        <div class="col">
+                        <RestaurantList name = {"D"} price = {500} distance = {10}></RestaurantList>
+                        </div>
+                </div>
+
+                <br></br>
+                <div class="row">
+                        <div class="col">
+                        <RestaurantList name = {"A"} price = {200} distance = {5}></RestaurantList>
+                        </div>
+                        <div class="col">
+                        <RestaurantList name = {"B"} price = {500} distance = {10}></RestaurantList>
+                        </div>
+                        <div class="col">
+                        <RestaurantList name = {"C"} price = {500} distance = {10}></RestaurantList>
+                        </div>
+                        <div class="col">
+                        <RestaurantList name = {"D"} price = {500} distance = {10}></RestaurantList>
+                        </div>
+                </div>
+ 
+                
+                
+                
                 
 
                 

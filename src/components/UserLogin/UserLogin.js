@@ -4,7 +4,7 @@ const UserLogin = () =>{
 	return(
 		<div className="UserLogin">
 			
-<div class="modal fade" id="login" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="login" tabindex="-1" aria-labelledby="" aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-content">
                     <div class="modal-header">
@@ -21,7 +21,7 @@ const UserLogin = () =>{
                             <small id="emailHelp" class="form-text text-muted">We'll never share your phone number with anyone else.</small>
                         </div>
                         <div class="form-group">
-                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password"/>
+                            <input type="password" class="form-control" id="loginid" placeholder="Password"/>
                         </div>
                         <div class="form-group form-check">
                             <input type="checkbox" class="form-check-input" id="exampleCheck1"/>

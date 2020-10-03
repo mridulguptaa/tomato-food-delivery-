@@ -1,5 +1,5 @@
 .background{
-    background-image: url('food_bg.jpg');
+    background-color: gray;
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 100vh;
