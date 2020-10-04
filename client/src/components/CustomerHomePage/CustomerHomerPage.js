@@ -13,7 +13,7 @@ const CustomerHomePage = () =>{
                                 <a class="navbar-brand " href="#">
                                         <h2>Tomato</h2>
                                 </a>
-                                <button type="button" class="btn btn-outline-secondary btn-lg white-border text-white" style = {{marginLeft : "80%"}} data-toggle="modal" data-target="#login">
+                                <button type="button" class="btn btn-outline-secondary btn-lg white-border text-white" style = {{marginLeft : "auto"}} data-toggle="modal" data-target="#login">
                                 Login
                                 </button>
                                 <button type="button" class="btn btn-outline-secondary btn-lg white-border text-white"   data-toggle="modal" data-target="#signup" >
